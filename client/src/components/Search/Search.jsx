@@ -15,7 +15,7 @@ const Search = () => {
             if (searchTerm.trim() !== '') {
                 searchPokemon();
             }
-        }, 1000);
+        }, 500);
 
         return () => {
             clearTimeout(delaySearch);
