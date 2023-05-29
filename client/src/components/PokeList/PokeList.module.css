@@ -1,0 +1,20 @@
+.list{
+    width: fit-content;
+    display: grid;
+    gap: 30px;
+    padding: 10px;
+    background: #191400;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 30px;
+}
+
+.root {
+    width: 238px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    margin: 0 15px 0 0 ;
+    background:  var(--navbar-color);
+    border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+.abilitiesContainer{
+    display: flex;
+    flex-direction: column;
+}
+.abilitiesContainer h3, h4{
+    margin: 8px 0 3px 0;
+}
+
+.abilitiesContainer .line{
+    align-self: flex-start;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+.abilityItem {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 5px 0 5px 0;
+}
+
+.abilityItem p {
+    margin: 0 5px 0 0;
+}
+
+.abilityItem p:first-letter {
+    text-transform: uppercase;
+}
+
+.abilityItem span {
+    margin: 0 5px 0 0;
+}
+
+.abilityName{
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.header{
+    margin: 15px 0 15px 0;
+    padding: 10px;
+    width: 90% ;
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #191400;
+}
+.title{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: #ffffff;
+}
+.title:first-letter {
+    text-transform: uppercase;
+}
+

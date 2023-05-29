@@ -1,0 +1,29 @@
+.movesTableContainer{
+    background: #fffae5;
+    padding: 5px 15px;
+    margin: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    align-self: center;
+}
+
+.movesTable{
+    border-collapse: collapse;
+}
+.movesTable tr, td, th{
+    padding: 6px 8px 6px 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.move{
+    color: #4f96ff;
+    font-weight: bold;
+}
+.move p{
+    margin: 0;
+    padding: 0;
+}
+.move p:first-letter{
+    text-transform: uppercase;
+}
