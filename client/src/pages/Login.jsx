@@ -82,7 +82,7 @@ const Login = () => {
                             authorizationUrl="https://www.facebook.com/dialog/oauth"
                             responseType="token"
                             clientId="341380535215234"
-                            redirectUri="http://localhost:3000"
+                            redirectUri="https://test-task-sant.vercel.app"
                             scope="public_profile"
                             onSuccess={onSuccess}
                             onFailure={onFailure}/>
